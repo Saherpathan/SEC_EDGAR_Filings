@@ -3,18 +3,18 @@ import os
 
 
 def download_10k_filings(companies):
-    # Initialize downloader
+
     dl = Downloader(company_name="Company Name", email_address="email@example.com")
 
     for company in companies:
-        # Define the directory to save the filings
+        # Defining the directory to save the filings
         save_dir = f"./{company}_10k_filings"
 
 
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
 
-        # Download filings for each year from 1995 through 2023
+
         for year in range(1995, 2024):
             try:
                 dl.get("10-K", company)
@@ -24,5 +24,6 @@ def download_10k_filings(companies):
 
 
 if __name__ == "__main__":
-    companies = ["AAPL", "GOOGL", "MSFT"]  # Example companies
+    # Selecting random tickers/companies
+    companies = ["AAPL", "GOOGL", "MSFT"]
     download_10k_filings(companies)
