@@ -32,3 +32,11 @@ This Python script lets you download SEC 10-K filings for specified companies fr
 - Conducted natural language processing tasks such as tokenization, stop words removal, and frequency distribution calculation using `nltk`.
 - Generated visualizations using `matplotlib`.
   
+
+## Task 2: Construct and Deploy Simple App
+
+- Created a simple app using `streamlit` that takes a company ticker as input and displays relevant visualizations.
+- `streamlit` was chosen for its simplicity and ease of hosting web apps, allowing for quick deployment.
+- Run the application using:
+  ```bash
+   streamlit run app.py
