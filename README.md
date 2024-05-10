@@ -19,7 +19,6 @@ This Python script lets you download SEC 10-K filings for specified companies fr
    ```bash
    python fetch_data.py
 
-
 ## Notes
 
 - Please ensure you have proper permissions and internet connectivity to access the SEC website for downloading filings.
