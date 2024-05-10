@@ -1,4 +1,4 @@
-# SEC 10-K Filings Downloader
+# SEC 10-K Filings Data
 
 This Python script lets you download SEC 10-K filings for specified companies from the SEC website using the `sec-edgar-downloader` package.
 
@@ -25,4 +25,10 @@ This Python script lets you download SEC 10-K filings for specified companies fr
 - Make sure to handle any errors during the download process.
 - You can customize the list of companies/tickers and the time range as per the requirement.
 
+
+## Task 1.2: Text Analysis
+
+- Used LLM API from `google-generativeai` to perform text analysis on the downloaded 10-K filings.
+- Conducted natural language processing tasks such as tokenization, stop words removal, and frequency distribution calculation using `nltk`.
+- Generated visualizations using `matplotlib`.
   
