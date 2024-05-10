@@ -6,8 +6,11 @@ This Python script lets you download SEC 10-K filings for specified companies fr
 
 - Python 3.x
 - `sec-edgar-downloader` package (install using `pip install sec-edgar-downloader`)
+- LLM API Key
 
-## Usage
+
+
+## Task 1.1: Fetch the data
 
 1. Clone this repository to your local machine using
     ```bash
