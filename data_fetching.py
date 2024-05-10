@@ -20,7 +20,7 @@ def download_10k_filings(companies):
                 dl.get("10-K", company)
                 print(f"Downloaded 10-K filing for {company} for the year {year}")
             except Exception as e:
-                print(f"Failed to download filing for {company} for the year {year}: {e}")
+                print(f"Oh no error! Failed to download filing for {company} for the year {year}: {e}")
 
 
 if __name__ == "__main__":
